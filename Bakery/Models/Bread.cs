@@ -21,11 +21,14 @@ namespace Bakery.Models
         loafList.Add(+ Loaf--);
       }
 
+      loafList.RemoveAll(element => element % 3 == 0);
+
       foreach (int element in loafList)
       {
-        loafList.RemoveAll(element % 3 == 0);
         BreadCost += 5;
       }
+
+      return BreadCost;
     }
   }
 }

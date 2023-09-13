@@ -40,12 +40,12 @@ namespace Bakery.Tests
       newBread.BreadCost = 0;
     }
 
-    // [TestMethod]
-    // public void CalcCost_CalculatesCostOfBread_Int()
-    // {
-    //   Bread newBread = new Bread(6);
-    //   newBread.CalcCost();
-    //   newBread.BreadCost = 20;
-    // }
+    [TestMethod]
+    public void CalcCost_CalculatesCostOfBread_Int()
+    {
+      Bread newBread = new Bread(9);
+      newBread.CalcCost();
+      newBread.BreadCost = 40;
+    }
   }
 }
