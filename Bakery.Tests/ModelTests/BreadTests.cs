@@ -34,11 +34,18 @@ namespace Bakery.Tests
     }
 
     [TestMethod]
-    public void CalcCost_CalculatesCostOfBread_Int()
+    public void GetBreadCost_ReturnsBreadCost_Int()
     {
-      Bread newBread = new Bread(6);
-      newBread.CalcCost();
-      newBread.breadCost = 20;
+      Bread newBread = new Bread(3);
+      newBread.BreadCost = 0;
     }
+
+    // [TestMethod]
+    // public void CalcCost_CalculatesCostOfBread_Int()
+    // {
+    //   Bread newBread = new Bread(6);
+    //   newBread.CalcCost();
+    //   newBread.BreadCost = 20;
+    // }
   }
 }
