@@ -4,8 +4,6 @@
 
 #### _A console app for ordering bread and pastry_
 
-https://willjolley.github.io/pizza-parlor/
-
 ## Technologies Used
 
 * C#
